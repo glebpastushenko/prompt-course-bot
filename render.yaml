@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: prompt-course-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    pythonVersion: 3.10.12
+    envVars:
+      - key: TOKEN
+        value: 7940139705:AAFfADQ0LYOyEUyBa-lEHRKBi6DvUPEA5Pw
+      - key: ADMIN_ID
+        value: "5864549405"
