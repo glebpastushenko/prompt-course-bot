@@ -1,2 +1,6 @@
+from aiogram import Bot
+
 TOKEN = "7940139705:AAFfADQ0LYOyEUyBa-lEHRKBi6DvUPEA5Pw"
 ADMIN_ID = 5864549405
+
+bot = Bot(token=TOKEN)
